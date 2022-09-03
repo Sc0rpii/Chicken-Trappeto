@@ -167,7 +167,7 @@ section h2{
 }
 /**Menù*/
 #menu{
-    width: 100%;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -175,7 +175,7 @@ section h2{
 }
 /**Menù slide*/
 #menu .menu-slide{
-    width: 80%;
+    width: 80vw;
     display: flex;
     align-items: center;
     justify-content: center;
