@@ -38,7 +38,7 @@ section h2{
 .header .logo{
     float: left;
     font-size: calc(1.2em + 1vw);
-    width: 50%;
+    width: 70vw;
     padding-left: 10px;
     color: var(--text-color);
 }
@@ -175,13 +175,13 @@ section h2{
 }
 /**Menù slide*/
 #menu .menu-slide{
-    width: 80vw;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 #menu .menu-slide .img-slider{
-    width: 80%;
+    width: 100%;
 }
 #menu .menu-slide .img-slider img{
     width: 100%;
