@@ -40,6 +40,7 @@ section h2{
     font-size: calc(1.2em + 1vw);
     padding-left: 10px;
     color: var(--text-color);
+    width: 70%;
 }
 .header ul{
     margin: 0;
