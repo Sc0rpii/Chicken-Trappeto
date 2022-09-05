@@ -11,7 +11,9 @@
   --font-family-text: 'Varela Round', sans-serif;
   --font-family-title:'Lobster', cursive;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-color: var(--bg-color);
     font-family: 'Varela Round', sans-serif;
@@ -210,9 +212,6 @@ section h2{
     height: 30px;
     margin: 0 15px;
 }
-#menu .menu-slide .button:nth-child(1){
-    fill:  gray;
-}
 /**Menu circle indice*/
 #menu .numberImg{
     display: flex;
@@ -222,7 +221,7 @@ section h2{
     width: 15px;
     height: 15px;
     background: none;
-    border: 2px solid #eee;
+    border: 2px solid var(--title-color);
     border-radius: 50%;
     margin: 15px 10px;
 }
