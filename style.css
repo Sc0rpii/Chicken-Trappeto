@@ -11,6 +11,9 @@
   --font-family-text: 'Varela Round', sans-serif;
   --font-family-title:'Lobster', cursive;
 }
+*{
+    margin: 0;
+}
 html{
     scroll-behavior: smooth;
 }
@@ -257,6 +260,11 @@ section h2{
     color: var(--text-color);
 }
 /**Recensioni*/
+#recensioni .contain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 #recensioni a{
     color: #34E0A1;
     text-decoration: none;
@@ -322,5 +330,81 @@ section h2{
 }
 /**/
 section{
-    margin: 30px 0;
+    margin: 40px 0;
+}
+section h2{
+    margin-bottom: 25px;
+}
+
+@media (min-width: 500px){
+    /**Menu*/
+    #menu .menu-slide .img-slider {
+        width: 50%;
+    }
+    /**Locate*/
+    #locate .container{
+        width: 80vw;
+    }
+}
+@media (min-width: 750px){
+    .header .menu-icon {
+        margin-right: 30px;
+    }
+    /**Menu*/
+    #menu .menu-slide .img-slider {
+        width: 50%;
+    }
+    /**Locate*/
+    #locate .container{
+        width: 70vw;
+    }
+}
+/**Desktop*/
+@media (min-width: 1000px) {
+    /**Header*/
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header .logo{
+        width: unset;
+    }
+    .header ul{
+        background: none;
+        margin-right: 15px;
+    }
+    .header li{
+        float: left;
+    }
+    .header li a{
+        padding: 20px 25px;
+    }
+    .header .menu{
+        clear: none;
+        float: right;
+        max-height: 240px;
+    }   
+    .header .menu-icon {
+        display: none;
+    }
+
+    /**Menu*/
+    #menu .menu-slide .img-slider {
+        width: 30%;
+    }
+    #menu .menu-slide .button{
+        width: 40px;
+        height: 40px;
+    }
+    /**Locate*/
+    #locate .container{
+        width: 50vw;
+        height: 40vh;
+    }
+
+    #recensioni .contain p{
+        width: 45%;
+    }
+    
 }
